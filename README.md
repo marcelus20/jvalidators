@@ -21,7 +21,7 @@ After doing the abobve steps, you will be able to import this lib into your proj
     <dependency>
       <groupId>com.marcelus.validators</groupId>
       <artifactId>jvalidators</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.1-SNAPSHOT</version>
     </dependency>
 ```
 ---

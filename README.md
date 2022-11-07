@@ -16,7 +16,7 @@ Issue the *maven clean install* command:
 mvn clean install
 ```
 
-After doing the abobve steps, you will be able to import this lib into your project:
+After doing the above steps, you will be able to import this lib into your project:
 ```xml
     <dependency>
       <groupId>com.marcelus.validators</groupId>
@@ -24,6 +24,8 @@ After doing the abobve steps, you will be able to import this lib into your proj
       <version>1.0.1-SNAPSHOT</version>
     </dependency>
 ```
+PS: To see what releases are available, check the [tags](https://github.com/marcelus20/jvalidators/tags) page.
+
 ---
 ## Current Features: 
 
@@ -80,18 +82,22 @@ PS: In the example above, the Either.left is an empty list of type Integer.
 ---
 ## FAQ
 
-### When will you add more features
-R: I don't know. When I find the need to add them.
+### When more features are going to be added? 
+R: I don't have a fixed schedule for adding them nor do I know what more features to add. 
+If I come across a situation that I need to validate something, and this validation doesn't exist in this lib,
+I'll go ahead and add it. 
+
+If you have an idea of what more to add, you can fill free to open an issue or open a pull request for us to discuss. 
 
 ### When will you add it to maven central?
-R: I don't know. I'll basically keep adding more features to this lib, when I find the need, I'll do so.
+R: I don't know. Perhaps if more people use it and this lib grows somehow. 
 
 ---
 ### Contributions
 Feel free to contribute, just please consider the following: 
 - Validators methods should return an Either object, where the left indicates the failure and right the success. Create methods that follow this approach.
 - All jvalidators software is distributed under the GNU General Public open source license, and your contributions will be licensed in the same way.
-- Open Pull Requests with the new codes always containing Junit tests cases. 
+- Open Pull Requests with the new codes containing passing test cases. 
 - Create an issue if you want to discuss a new idea.
 
 ## License
